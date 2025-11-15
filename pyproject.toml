@@ -1,0 +1,25 @@
+[project]
+name = "requests-retry"
+version = "0.1.0"
+description = "Python Requests plugin that intercepts failed requests and retries them whenever possible."
+license-files = ["LICENSE"]
+readme = "README.md"
+authors = [
+    { name = "Avinash Maddikonda", email = "avinash@skylarkdrones.com" }
+]
+requires-python = ">=3.14.0"
+dependencies = []
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["http", "requests", "retry", "plugin"]
+
+[build-system]
+requires = ["uv_build>=0.9.9,<0.10.0"]
+build-backend = "uv_build"
